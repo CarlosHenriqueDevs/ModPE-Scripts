@@ -14,7 +14,7 @@ function newLevel() {
 				 window.setHeight(android.widget.RelativeLayout.LayoutParams.WRAP_CONTENT);
 				 window.setBackgroundDrawable(new android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT));
 
-				 var text = new android.widget.TextView(ctx);
+				 var text = new android.widget.TextView(ctx); 
 				 text.setText("Seu texto!");
 
 				 var layout = new android.widget.RelativeLayout(ctx);
