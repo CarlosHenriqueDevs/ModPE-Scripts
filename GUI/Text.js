@@ -3,7 +3,7 @@ var window = null;
 var text = null;
 
 function newLevel() {
-
+	 
 	 ctx = com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
 
 	 ctx.runOnUiThread(new java.lang.Runnable()
